@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background: #f8fafc;
-    color: #333
+    color: #333;
 }
 
 
@@ -18,11 +18,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 
-nav-button{
+nav button {
     background: none;
     border: none;
     padding: 10px 14px;
@@ -31,7 +31,7 @@ nav-button{
 }
 
 nav button:hover {
-    background: #e8f5e9
+    background: #e8f5e9; 
 }
 
 
@@ -56,7 +56,7 @@ nav button:hover {
     background: #ffffff;
     padding: 20px;
     border-radius: 14px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 
