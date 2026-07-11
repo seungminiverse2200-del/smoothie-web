@@ -1,0 +1,35 @@
+<DOCTYPE html><html> 
+    <head><meta charset='UTF-8> 
+       <title>Smoothie Shop</title>
+<link rel='stylesheet' href='style.css'></head>
+<body>
+<header><h1> Smoothie Shop</h1><nav>
+<button onclick="showPage('home')">Home</button>   
+<button onclick="showPage('products')">Products</button>
+<button onclick="showPage('about')">About</button>
+<button onclick="showPage('contact')">Contact</button>
+</nav>
+</header>
+
+
+<section id='home' class='page'>
+    <h2>Fresh & Healthy Smoothies</h2><p>Made with real fruits everyday.</p></section>
+<section id='products'  class='page'>
+    <h2>Products</h2><div class='products'>
+<div class='card'><h3> Strawberry</h3><p>$5</p><button onclick="buyProduct('Strawberry')">Buy</button></div>
+<div class='card'><h3> Mango</h3><p>$6</p><button onclick="buyProduct('Mango')">Buy</button></div>
+<div class='card'><h3> Blueberry</h3><p>$7</p><button onclick="buyProduct('Blueberry')">Buy</button></div>
+    </div></section>
+
+
+<section id='about'  class='page'><h2>About</h2><p>Simple smoothie store website for learning HTML, CSS, and JavaScript.</p>/section>
+<section id='contact'  class='page'><h2>Contact</h2><p>smoothie@email.com</p></section>
+<script src='script.js'></script>
+</body>
+</html>
+
+
+
+
+
+
