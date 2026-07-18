@@ -75,3 +75,46 @@ nav button:hover {
 .card button:hover {
     background: #16a34a;
 }
+
+/* HERO */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+    margin-top:40px;
+}
+
+.hero-text{
+    flex:1;
+    text-align:left;
+}
+
+.hero-text h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero-text p{
+    margin-bottom:20px;
+    line-height:1.6;
+}
+
+.hero-text button{
+    padding:12px 24px;
+    border:none;
+    border-radius:10px;
+    background:#22c55e;
+    color:white;
+    cursor:pointer;
+}
+
+.hero-image{
+    flex:1;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:20px;
+}
