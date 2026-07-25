@@ -52,6 +52,7 @@ nav button:hover {
 
 
 .card {
+    transition:.3s;
     width: 200px;
     background: #ffffff;
     padding: 20px;
@@ -71,6 +72,9 @@ nav button:hover {
     cursor: pointer;
 }
 
+.card:hover{
+    transform:translateY(-8px);
+}
 
 .card button:hover {
     background: #16a34a;
@@ -126,4 +130,31 @@ nav button:hover {
     border-radius:12px;
     margin:15px 0;
 
+}
+
+.old-price{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.price{
+    color:#22c55e;
+    font-size:22px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.badge{
+    background:#ef4444;
+    color:white;
+    padding:6px 14px;
+    border-radius:30px;
+    font-size:12px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    background:white;
 }
