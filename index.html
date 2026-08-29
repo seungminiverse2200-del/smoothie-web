@@ -9,7 +9,9 @@
 <button onclick="showPage('about')">About</button>
 <button onclick="showPage('contact')">Contact</button>
 </nav> 
-<p id="cart"> 🛒 Cart : 0 </p>
+    <button onclick = "showPage('cart')"> 
+ 🛒 Cart : <span id = "cart-count"> 0 </span>
+    </button>
 </header>
 
 
@@ -64,7 +66,25 @@
 
 
 <section id='about'  class='page'><h2>About</h2><p>Simple smoothie store website for learning HTML, CSS, and JavaScript.</p></section>
-<section id='contact'  class='page'><h2>Contact</h2><p>smoothie@email.com</p></section>
+<section id="cart" class="page">
+    <h2>Your Cart</h2>
+    <div id="cart-items">
+        <p>Your cart is empty.</p>
+    </div>
+
+    <h3 id="cart-total">
+        Total=$0
+    </h3>
+    <button onclick="showPage('products')">
+        Continue Shopping
+    </button> 
+
+    <button onclick="checkout()">
+        Checkout
+    </button>
+</section> 
+    
+    <section id='contact'  class='page'><h2>Contact</h2><p>smoothie@email.com</p></section>
    <footer>
     <p>
         © 2026 Smoothie Shop
