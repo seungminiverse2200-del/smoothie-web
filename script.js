@@ -1,3 +1,5 @@
+let totalCart = 0;
+
 function showPage(id) {
 
 
@@ -12,7 +14,9 @@ showPage("home");
 
 
 function buyProduct(n) {
-
-    alert("You Brought " + n + "!");
+    totalCart++;
+    document.getElementById("cart").textContent = " Cart : " + totalCart;
+    
+    alert("You Brought " + n + "Smoothie!");
     
 }
