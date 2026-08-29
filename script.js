@@ -1,4 +1,4 @@
-let totalCart = 0;
+let cart = [];
 
 function showPage(id) {
 
@@ -14,9 +14,20 @@ showPage("home");
 
 
 function buyProduct(n) {
-    totalCart++;
-    document.getElementById("cart").textContent = " Cart : " + totalCart;
+    cart.push(n);
+    document.getElementById("cart-count").textContent = cart.length;
     
     alert("You Brought " + n + "Smoothie!");
     
+}
+
+function showCart() {
+    let cartItems = document.getElementById("cart-items");
+
+cartItems.innerHTML= "";
+for (let i = 0; i < cart.length; i++) {
+    let item = document.createElement("p");
+    item.textContent = "" + cart[i];
+    cartItems.appendChild(item);
+  }
 }
