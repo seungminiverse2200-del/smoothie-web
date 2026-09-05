@@ -31,3 +31,11 @@ for (let i = 0; i < cart.length; i++) {
     cartItems.appendChild(item);
   }
 }
+
+function checkout () {
+    if (cart.length === 0) {
+        alert("Your cart is empty!");
+    } else {
+        alert("Thank you for your pruchase!");
+    }
+}
