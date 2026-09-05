@@ -172,3 +172,26 @@ footer{
     font-weight:bold;
 
 }
+
+#cart-items {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+#cart-items p {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#cart button {
+    padding: (10px 20px);
+    border: none;
+    border-radius: 8px;
+    background: #22c55e;
+    color: white;
+    cursor: pointer;
+}
+            
