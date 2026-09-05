@@ -159,19 +159,7 @@ footer{
     background:white;
 }
 
-#cart{
 
-    background:#22c55e;
-
-    color:white;
-
-    padding:10px 18px;
-
-    border-radius:30px;
-
-    font-weight:bold;
-
-}
 
 #cart-items {
     max-width: 500px;
@@ -180,6 +168,7 @@ footer{
 
 #cart-items p {
     background: white;
+    color: #333;
     padding: 15px;
     margin: 10px 0;
     border-radius: 10px;
