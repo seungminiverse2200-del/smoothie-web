@@ -17,7 +17,7 @@ function buyProduct(n) {
     cart.push(n);
     document.getElementById("cart-count").textContent = cart.length;
     
-    alert("You Brought " + n + "Smoothie!");
+    alert("You Brought " + n + " Smoothie!");
     
 }
 
